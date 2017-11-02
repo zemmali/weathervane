@@ -54,7 +54,7 @@ GetOptions('help' => \$help,
 			'private!' => \$private
 			);
 
-my @imageNames = qw(centos7 haproxy mongodb nginx postgresql rabbitmq zookeeper configurationManager tomcat);
+my @imageNames = qw(centos7 auctionDataManager haproxy mongodb nginx postgresql rabbitmq zookeeper configurationManager tomcat);
 if ($#ARGV >= 0) {
 	@imageNames = @ARGV;
 }
